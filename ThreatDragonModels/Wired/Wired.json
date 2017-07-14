@@ -5,8 +5,23 @@
     "description": "OVERVIEW"
   },
   "detail": {
-    "contributors": [],
-    "diagrams": [],
+    "contributors": [
+      {
+        "name": "test"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "TEST",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      },
+      {
+        "title": "test2",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
+      }
+    ],
     "reviewer": "P2"
   }
 }
