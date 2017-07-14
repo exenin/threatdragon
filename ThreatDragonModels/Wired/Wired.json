@@ -125,8 +125,24 @@
                   "y": 91
                 },
                 {
+                  "x": 323,
+                  "y": 166
+                },
+                {
                   "x": 309,
                   "y": 441
+                },
+                {
+                  "x": 208,
+                  "y": 303
+                },
+                {
+                  "x": 186,
+                  "y": 260
+                },
+                {
+                  "x": 149,
+                  "y": 186
                 }
               ],
               "id": "91e58982-1517-47c4-8c73-a1731f92b923",
@@ -151,6 +167,14 @@
               "storesCredentials": true,
               "isEncrypted": true,
               "isSigned": true,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "aqsdadasd"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
