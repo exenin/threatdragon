@@ -47,8 +47,7 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 260,
-                "y": 469
+                "id": "a19da3bb-34be-4c9e-b169-a6b235679f4d"
               },
               "target": {
                 "x": 110,
@@ -56,19 +55,131 @@
               },
               "vertices": [
                 {
+                  "x": 597,
+                  "y": 75
+                },
+                {
+                  "x": 615,
+                  "y": 427
+                },
+                {
                   "x": 453,
                   "y": 131
+                },
+                {
+                  "x": 337,
+                  "y": 91
                 }
               ],
               "id": "91e58982-1517-47c4-8c73-a1731f92b923",
               "z": 2,
               "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 759,
+                "y": 12
+              },
+              "angle": 0,
+              "id": "be262d51-7f27-4d2e-a732-bb86f86a3067",
+              "z": 3,
+              "hasOpenThreats": false,
+              "isALog": true,
+              "storesCredentials": true,
+              "isEncrypted": true,
+              "isSigned": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "test"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 898,
+                "y": 401
+              },
+              "angle": 0,
+              "id": "a19da3bb-34be-4c9e-b169-a6b235679f4d",
+              "z": 4,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "test",
+                  "type": "Spoofing",
+                  "description": "test",
+                  "mitigation": "test"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "be262d51-7f27-4d2e-a732-bb86f86a3067"
+              },
+              "target": {
+                "id": "a19da3bb-34be-4c9e-b169-a6b235679f4d"
+              },
+              "vertices": [],
+              "id": "d13b7ffa-157a-4291-b448-eeea782eb8d1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
-          "height": 590,
-          "width": 790
+          "height": 599,
+          "width": 1059
         }
       }
     ],
